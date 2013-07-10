@@ -7,7 +7,7 @@ app.get('/', function(request, response) {
 
     fs.readFile('./index.html', function(err, data){
 
-	response.send('Done');(
+	response.send('Done');
     }
 });
 
